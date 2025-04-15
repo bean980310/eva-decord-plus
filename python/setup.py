@@ -84,8 +84,7 @@ setup(
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: Apache Software License',
-        "Operating System :: OS Independent",
+        'License :: OSI Approved :: Apache Software License'
     ],
     license='APACHE',
     **setup_kwargs
