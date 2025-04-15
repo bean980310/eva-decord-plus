@@ -68,12 +68,12 @@ if include_libs:
     }
 
 setup(
-    name='eva-decord',
-    version="0.6.0",
-    description='EVA\'s Decord Video Loader',
+    name='eva-decord-plus',
+    version="0.6.2",
+    description='bean\'s Decord Video Loader',
     zip_safe=False,
     maintainer='Decord committers',
-    maintainer_email='georgia.tech.db@gmail.com',
+    maintainer_email='bean980310@gmail.com',
     packages=find_packages(),
     python_requires='>=3.7.0',
     install_requires=[
@@ -85,6 +85,7 @@ setup(
         'Development Status :: 3 - Alpha',
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: Apache Software License',
+        "Operating System :: OS Independent",
     ],
     license='APACHE',
     **setup_kwargs
